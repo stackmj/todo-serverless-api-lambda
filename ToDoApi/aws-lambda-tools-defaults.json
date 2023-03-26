@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "ToDoApiLambda",
+    "package-type"  : "Zip",
+    "function-handler" : "ToDoApi",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::591027601970:role/lambda_exec_ToDoApiLambda-0",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
